@@ -4,7 +4,7 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
-  "luxury flash winter cross public repeat cradle flame cup spoon matter design",
+  "wallet mnemonics",
   "https://rinkeby.infura.io/v3/ce775799453446ee8bdacba907455e97"
 );
 const web3 = new Web3(provider);
